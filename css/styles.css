@@ -8,7 +8,7 @@ h1{
   font-size: 4rem;
   line-height: 1.5;
   color: #1A3636;
-  padding: 1rem
+  padding: 2rem 0;
 }
 
 h2{
@@ -32,7 +32,7 @@ p{
 }
 
 .container-fluid{
-  padding: 0 15% 25%;
+  padding: 0 15% 20%;
 }
 
 /*Navigation Bar*/
@@ -70,6 +70,7 @@ p{
   width: 60%;
   transform: rotate(20deg);
   position: absolute;
+  padding: 5% 5%
 }
 
   @media (max-width:1028px){
