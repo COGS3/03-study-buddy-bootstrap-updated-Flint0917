@@ -1,0 +1,177 @@
+
+/* COGS3 studyBuddy specific styles go here. */
+
+h1{
+  font-family: "Archivo Black", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #1A3636;
+  padding: 1rem
+}
+
+h2{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  color:white;
+}
+
+h3{
+  font-family:'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p{
+  color: #356363;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-size: 1.3rem;
+  padding: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.container-fluid{
+  padding: 0 15% 25%;
+}
+
+/*Navigation Bar*/
+.navbar-brand{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2.5rem;
+}
+
+.navbar{
+  padding: 0 1.5rem 1.5rem;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family:'Montserrat', sans-serif;
+  font-size: 1.2rem;
+}
+
+/*Download Button*/
+.download_button{
+  margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+#title{
+  background-color: #DEF9C4;
+}
+
+.title_img{
+  width: 60%;
+  transform: rotate(20deg);
+  position: absolute;
+}
+
+  @media (max-width:1028px){
+    #title{
+      text-align: center;
+    }
+    .title_img{
+      position: static;
+      transform: rotate(0);
+    }
+  }
+
+/*Features*/
+#features{
+  padding: 7% 15%;
+  background-color:#9CDBA6;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box{
+  text-align: center;
+}
+
+.feature-icon{
+  padding: 0 0 1rem;
+  color: #EE4E4E;
+}
+
+.feature-icon:hover{
+  color: #8f1414;
+}
+
+/*Testimonials*/
+#testimonials{
+  text-align: center;
+  background-color: #50B498;
+}
+
+.testimonial_img{
+  width: 10%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #50B498;
+  text-align: center;
+}
+
+.press-logo{
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/*Pricing*/
+#pricing{
+  text-align: center;
+  padding: 100px 20px 20px;
+}
+
+.pricing{
+  color: black;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.pricing_header{
+  color: black;
+  font-weight: bold;
+}
+
+.pricing_col{
+  padding: 3% 2%
+  
+}
+
+.pricing_text{
+  margin-bottom: 0;
+}
+
+/*Call to action*/
+#cta{
+  background-color: #50B498;
+  color: white;
+  padding: 5% 5%;
+}
+
+.cta_heading{
+  background-color: #50B498;
+  color: white;
+  padding: 0 15% 7% 15%;
+  text-align: center;
+}
+
+/*Footer*/
+#footer{
+  background-color: #DEF9C4;
+  padding: 0 15%;
+  text-align: center;
+}
